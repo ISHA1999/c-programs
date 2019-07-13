@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int n=1,a,p;
+	printf("enter the value for table");
+	scanf("%d",&a);
+	while(n<=10)
+	{
+		p=a*n;
+		printf("%d*%d=%d \n",a,n,p);
+		n++;
+	}
+}

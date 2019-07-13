@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i=1,j=1,s;
+	while(i<=7)
+	{
+		s=i;
+		while (s<7)
+		{	
+	printf(" ");
+	s++;
+		}
+	j=1;
+	while(j<=i)
+	{
+		printf("welcome");
+		j++;
+	}
+
+}
+printf("\n");
+i++;
+	getch();
+} 
